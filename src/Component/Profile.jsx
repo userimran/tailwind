@@ -59,22 +59,22 @@ const Profile = () => {
             <div className="flex flex-row justify-evenly ">
               <div className="py-1.5">
                 <Avatar alt="Remy Sharp" src={ele.profilepicture} sx={{ width: 80, height: 80 }} />
-                <p className=" py-1.5 ">name : {ele.name}</p>
+                <p className=" py-1.5 ">Name : {ele.name}</p>
                 <p className=" py-1.5 ">UserName : {ele.username}</p>
-                <p className="py-1.5">email : {ele.email}</p>
-                <p className="py-1.5">phone : {ele.phone}</p>
+                <p className="py-1.5">Email : {ele.email}</p>
+                <p className="py-1.5">Phone : {ele.phone}</p>
                 <p className="py-1.5">website : {ele.website}</p>
                 <Divider />
                 <p className="py-1.5 text-center">Company</p>
                 <p className="py-1.5">Name: {ele.company.name}</p>
-                <p className="py-1.5">catchPharse: {ele.company.catchPhrase}</p>
+                <p className="py-1.5">Catch Pharse: {ele.company.catchPhrase}</p>
 
               </div>
               <div className="">
-                <p className="py-1.5">addrsss : {ele.address.street}</p>
-                <p className="py-1.5">street :{ele.address.suite}</p>
-                <p className="py-1.5">city :{ele.address.city} </p>
-                <p className="py-1.5">zipcode : {ele.address.zipcode}</p>
+                <p className="py-1.5">Addrsss : {ele.address.street}</p>
+                <p className="py-1.5">Street :{ele.address.suite}</p>
+                <p className="py-1.5">City :{ele.address.city} </p>
+                <p className="py-1.5">Zipcode : {ele.address.zipcode}</p>
                 <iframe className="rounded-md" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d28032.76268375464!2d77.224753!3d28.5668998!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1673935328276!5m2!1sen!2sin" style={{ width: "500px", height: "300px", border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
               </div>
@@ -82,9 +82,6 @@ const Profile = () => {
           </>
         ))
       }
-
-
-
     </>
   )
 }

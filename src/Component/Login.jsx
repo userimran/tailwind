@@ -18,7 +18,7 @@ const Login = () => {
               userDatas.map((ele) => (
                 <NavLink to={`/profile/${ele.id}`}>
                   <List>
-                    <ListItem><Avatar alt="Remy Sharp" src={ele.profilepicture} />{ele.name}</ListItem>
+                    <ListItem><Avatar alt="Remy Sharp" src={ele.profilepicture} /> &nbsp;{ele.name}</ListItem>
                     <Divider />
                   </List>
                 </NavLink>
